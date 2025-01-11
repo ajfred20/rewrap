@@ -8,7 +8,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Rewrapped",
+  title: "Rewrap",
   description: "Seamlessly Integrate Tailwind CSS to your React projects",
   icons: {
     icon: "/rewrap.svg",
