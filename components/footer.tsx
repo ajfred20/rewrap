@@ -5,7 +5,7 @@ export function Footer() {
         <div className="flex flex-col sm:flex-row justify-between items-center gap-3 sm:gap-4 text-center sm:text-left">
           <div className="flex items-center space-x-1 text-xs sm:text-sm text-zinc-600 dark:text-zinc-400">
             <span>© {new Date().getFullYear()}</span>
-            <span className="font-semibold">Rewrap Package.</span>
+            <span className="font-semibold">Rewrap.</span>
           </div>
 
           <div className="text-xs sm:text-sm text-zinc-600 dark:text-zinc-400">

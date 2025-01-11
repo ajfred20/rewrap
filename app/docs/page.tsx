@@ -5,20 +5,18 @@ import { CheckCircle, HelpCircle } from "lucide-react";
 import { Footer } from "@/components/footer";
 import Link from "next/link";
 
-const jsIntegrationCode = `// Install Vite
-npm create vite@latest my-project -- --template react
-
-// Go to project directory
-cd my-project 
-
-// Install Rewrap
+const jsIntegrationCode = `// Install Rewrap
 npm i -g rewrap-vitejs-tailwind
 
 // Or use NPX
 npx rewrap-vite-tailwind
 
 // Run the installer if you have installed globally to initialize the package
-rewrap-vite-tailwind`;
+rewrap-vite-tailwind
+
+// Run development server
+cd my-project-name
+npm run dev`;
 
 export default function RewrapDocsPage() {
   return (
@@ -46,28 +44,34 @@ export default function RewrapDocsPage() {
               Integration Steps
             </h2>
             <ol className="list-decimal list-inside space-y-2 text-zinc-600 dark:text-zinc-400">
-              <li>Install Vite globally using npm.</li>
-              <li>Install Rewrap using npm or npx</li>
-              <li>Initialize the package.</li>
-              <li>Start using Tailwind.</li>
+              <li>Run the installer command.</li>
+              <li>Follow the interactive prompts to configure your project:</li>
               <li>
-                Add utility classes to your elements using the className prop.
+                Choose between creating a new project or configuring an existing
+                one.
               </li>
-              <li>Customize your styles using the provided utility classes.</li>
+              <li>Select your preferred framework (React, Vue, or Svelte).</li>
+              <li>Choose the language (JavaScript or TypeScript).</li>
+              <li>Choose the language (JavaScript or TypeScript).</li>
+              <li>Opt for additional features and packages.</li>
+              <li>
+                The installer will set up your project with the selected
+                configuration.
+              </li>
             </ol>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold text-zinc-800 dark:text-zinc-200 mb-4">
-              Utility Classes Reference
+              Project Structure
             </h2>
             <p className="text-zinc-600 dark:text-zinc-400 mb-4">
-              For a complete list of available utility classes and their usage,
-              please refer to our detailed documentation.
+              To see how the project would be structured after the running the
+              commands please visit the projects showcase page.
             </p>
-            <Link href="https://tailwindcss.com/docs/utility-first">
+            <Link href="/showcase">
               <Button className="bg-purple-600 hover:bg-purple-700">
-                View Full Class Reference
+                Project Showcase
               </Button>
             </Link>
           </section>

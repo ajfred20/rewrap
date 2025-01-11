@@ -26,13 +26,13 @@ export function CodePreview({ code }: CodePreviewProps) {
                 {word}{" "}
               </span>
             );
-          } else if (["npm", "npx"].includes(word)) {
+          } else if (["npm"].includes(word)) {
             return (
               <span key={wordIndex} className="text-purple-400">
                 {word}{" "}
               </span>
             );
-          } else if (["cd", "rewrap-vitejs-tailwind"].includes(word)) {
+          } else if (["cd", "npx"].includes(word)) {
             return (
               <span key={wordIndex} className="text-blue-400">
                 {word}{" "}
@@ -48,8 +48,8 @@ export function CodePreview({ code }: CodePreviewProps) {
               </span>
             );
           } else if (
-            word.startsWith("vite-tailwind-installer") ||
-            word.endsWith(">") ||
+            word.startsWith("rewrap-vitejs-tailwind") ||
+            word.endsWith(" >") ||
             word.endsWith("create vite@latest")
           ) {
             return (
