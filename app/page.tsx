@@ -47,7 +47,7 @@ export default function Home() {
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-zinc-900 dark:text-white mb-4 sm:mb-6 tracking-tight px-2">
               Seamlessly Integrate Tailwind CSS
-              <span className="block mt-2">to your React projects</span>
+              <span className="block">to your React projects</span>
             </h1>
             <p className="text-sm sm:text-base md:text-lg lg:text-xl text-zinc-600 dark:text-zinc-400 mb-6 sm:mb-8 md:mb-10 leading-relaxed px-3 sm:px-4">
               Rewrap is a utility-first CSS framework that effortlessly add
