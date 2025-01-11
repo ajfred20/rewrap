@@ -14,8 +14,8 @@ export const metadata: Metadata = {
     icon: "/rewrap.svg",
   },
   openGraph: {
-    title: "Rewrap - Tailwind CSS Integration",
-    description: "Seamlessly Integrate Tailwind CSS to your React projects",
+    title: "Rewrap - Create Fullstack Projects at Lightspeed",
+    description: "Build projects in a matter of seconds",
     url: "https://rewrap.vercel.app",
     siteName: "Rewrap",
     images: [
@@ -31,8 +31,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Rewrap - Tailwind CSS Integration",
-    description: "Seamlessly Integrate Tailwind CSS to your React projects",
+    title: "Rewrap - Create Fullstack Projects at Lightspeed",
+    description: "Build projects in a matter of seconds",
     creator: "@iamajfred_",
     images: ["/rewrap.png"],
   },
