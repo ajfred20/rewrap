@@ -8,7 +8,7 @@ interface CodePreviewProps {
 }
 
 export function CodePreview({ code }: CodePreviewProps) {
-  const [copied, setCopied] = useState(false);
+  const [, setCopied] = useState(false);
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(code);

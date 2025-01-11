@@ -1,7 +1,7 @@
 import { Layout } from "@/components/layout";
 import { CodePreview } from "@/components/code-preview";
 import { Button } from "@/components/ui/button";
-import { Book, CheckCircle, HelpCircle } from "lucide-react";
+import { CheckCircle, HelpCircle } from "lucide-react";
 import { Footer } from "@/components/footer";
 import Link from "next/link";
 
