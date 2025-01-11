@@ -20,9 +20,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <div className="container mx-auto px-4 h-16 flex items-center justify-between">
           <Link
             href="/"
-            className="text-lg sm:text-xl font-bold text-purple-600 dark:text-purple-400 flex items-center"
+            className="text-lg sm:text-xl font-bold text-purple-600 dark:text-purple-400 flex items-center gap-2"
           >
-            Rewrapped
+            <img src="/rewrap.svg" alt="Rewrap Logo" className="w-6 h-6" />
+            Rewrap
           </Link>
 
           {/* Desktop Navigation */}

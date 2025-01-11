@@ -46,8 +46,9 @@ export default function RewrapDocsPage() {
               Integration Steps
             </h2>
             <ol className="list-decimal list-inside space-y-2 text-zinc-600 dark:text-zinc-400">
-              <li>Install Rewrap using npm or yarn.</li>
-              <li>Initialize the project globally.</li>
+              <li>Install Vite globally using npm.</li>
+              <li>Install Rewrap using npm or npx</li>
+              <li>Initialize the package.</li>
               <li>Start using Tailwind.</li>
               <li>
                 Add utility classes to your elements using the className prop.
