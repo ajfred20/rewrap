@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     siteName: "Rewrapped",
     images: [
       {
-        url: "/rewrap.png",
+        url: "https://rewrap.vercel.app/api/og",
         width: 1200,
         height: 630,
         alt: "Rewrapped - Tailwind CSS Integration",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     title: "Rewrapped - Tailwind CSS Integration",
     description: "Seamlessly Integrate Tailwind CSS to your React projects",
     creator: "@iamajfred_",
-    images: ["/rewrap.png"],
+    images: ["https://rewrap.vercel.app/api/og"],
   },
 };
 

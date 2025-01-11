@@ -9,13 +9,16 @@ const jsIntegrationCode = `// Install Vite
 npm create vite@latest my-project -- --template react
 
 // Go to project directory
-cd my-project
+cd my-project 
 
 // Install Rewrap
-npm i rewrap-vite-tailwind
+npm i -g rewrap-vitejs-tailwind
 
-// Initialize the package
-vite-tailwind-installer`;
+// Or use NPX
+npx rewrap-vite-tailwind
+
+// Run the installer if you have installed globally to initialize the package
+rewrap-vite-tailwind`;
 
 export default function RewrapDocsPage() {
   return (

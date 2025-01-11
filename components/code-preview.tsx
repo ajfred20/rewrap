@@ -26,13 +26,13 @@ export function CodePreview({ code }: CodePreviewProps) {
                 {word}{" "}
               </span>
             );
-          } else if (["npm", "return"].includes(word)) {
+          } else if (["npm", "npx"].includes(word)) {
             return (
               <span key={wordIndex} className="text-purple-400">
                 {word}{" "}
               </span>
             );
-          } else if (["cd", "var"].includes(word)) {
+          } else if (["cd", "rewrap-vitejs-tailwind"].includes(word)) {
             return (
               <span key={wordIndex} className="text-blue-400">
                 {word}{" "}
@@ -57,7 +57,7 @@ export function CodePreview({ code }: CodePreviewProps) {
                 {word}{" "}
               </span>
             );
-          } else if (["create", "vite@latest"].includes(word)) {
+          } else if (["-g", "create", "vite@latest"].includes(word)) {
             return (
               <span key={wordIndex} className="text-red-400">
                 {word}{" "}
