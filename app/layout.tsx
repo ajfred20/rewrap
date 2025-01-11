@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     icon: "/rewrap.svg",
   },
   openGraph: {
-    title: "Rewrapped - Tailwind CSS Integration",
+    title: "Rewrap - Tailwind CSS Integration",
     description: "Seamlessly Integrate Tailwind CSS to your React projects",
     url: "https://rewrap.vercel.app",
     siteName: "Rewrap",
