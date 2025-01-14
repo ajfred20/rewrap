@@ -1,6 +1,15 @@
 "use client";
 
-import { Moon, Sun, Book, Newspaper, Laptop, Menu, X } from "lucide-react";
+import {
+  Moon,
+  Sun,
+  Book,
+  Newspaper,
+  Laptop,
+  Menu,
+  X,
+  User,
+} from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { useState } from "react";
@@ -48,6 +57,13 @@ export function Layout({ children }: { children: React.ReactNode }) {
             >
               <Laptop className="mr-1" size={18} />
               Showcase
+            </Link>
+            <Link
+              href="/contributors"
+              className="text-zinc-600 dark:text-zinc-400 hover:text-purple-600 dark:hover:text-purple-400 flex items-center"
+            >
+              <User className="mr-1" size={18} />
+              Contributors
             </Link>
           </nav>
 
