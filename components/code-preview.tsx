@@ -57,7 +57,7 @@ export function CodePreview({ code }: CodePreviewProps) {
                 {word}{" "}
               </span>
             );
-          } else if (["-g", "create", "vite@latest"].includes(word)) {
+          } else if (["-g", "create", "rewrap-installer"].includes(word)) {
             return (
               <span key={wordIndex} className="text-red-400">
                 {word}{" "}

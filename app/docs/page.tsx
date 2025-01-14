@@ -12,7 +12,7 @@ npm i -g rewrap-vitejs-tailwind
 npx rewrap-vite-tailwind
 
 // Run the installer if you have installed globally to initialize the package
-rewrap-vite-tailwind
+rewrap-installer
 
 // Run development server
 cd my-project-name
