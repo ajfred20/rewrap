@@ -16,7 +16,7 @@ export function Footer() {
               rel="noopener noreferrer"
               className="text-purple-600 hover:text-purple-700 dark:text-purple-400 dark:hover:text-purple-300"
             >
-              Aj Fred
+              Aj Fred & Caleb Kalejaiye 
             </a>
           </div>
         </div>
